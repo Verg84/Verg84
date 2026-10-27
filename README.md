@@ -8,6 +8,13 @@ My interests include extended reality, computer graphics, game development, and 
 
 I'm seeking opportunities in **software development, XR, and games engineering**.
 
+## Contents
+
+- [Meta Quest Object Detection](https://github.com/Verg84/MetaQuest_YOLO_Detections)
+- [2D Game Engine](https://github.com/Verg84/2DGameEngine)
+- [OpenGL Applications](https://github.com/Verg84/OpenGL_applications)
+- [Current research](#current-research)
+
 ## Featured projects
 
 ### [Meta Quest Object Detection](https://github.com/Verg84/MetaQuest_YOLO_Detections)
