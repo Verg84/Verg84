@@ -10,33 +10,47 @@ I'm seeking opportunities in **software development, XR, and games engineering**
 
 ## Contents
 
-- [Meta Quest Object Detection](https://github.com/Verg84/MetaQuest_YOLO_Detections)
-- [2D Game Engine](https://github.com/Verg84/2DGameEngine)
-- [OpenGL Applications](https://github.com/Verg84/OpenGL_applications)
-- [Current research](#current-research)
+- [PINN_Project](https://github.com/Verg84/PINN_Project)
+- [MetaQuest_Action_FPS](https://github.com/Verg84/MetaQuest_Action_FPS)
+- [MetaQuest_AR_LabelRendering](https://github.com/Verg84/MetaQuest_AR_LabelRendering)
+- [Unity-RealTimeStrategy-Mechanics](https://github.com/Verg84/Unity-RealTimeStrategy-Mechanics)
+- [MetaQuest_YOLO_Detections](https://github.com/Verg84/MetaQuest_YOLO_Detections)
+- [2DGameEngine](https://github.com/Verg84/2DGameEngine)
+- [OpenGL_applications](https://github.com/Verg84/OpenGL_applications)
+- [Unity_Prototype_AppleTree](https://github.com/Verg84/Unity_Prototype_AppleTree)
+- [WebDevelopment](https://github.com/Verg84/WebDevelopment)
+
+[Current research](#current-research)
 
 ## Featured projects
 
-### [Meta Quest Object Detection](https://github.com/Verg84/MetaQuest_YOLO_Detections)
+### [Temperature Prediction with a Residual CNN](https://github.com/Verg84/PINN_Project)
 
-A prototype that streams camera frames from a Meta Quest Unity application to a Python YOLO detector. The server displays annotated video and returns detection coordinates to Unity over WebSockets.
+PyTorch experiments predicting temperature fields from three input frames. The project compares data-only training with heat-equation and smoothness penalties using the same residual CNN.
 
-**Technologies:** Unity · C# · Python · YOLO · FastAPI · OpenCV · WebSockets  
-**Focus:** Connecting XR camera input with a computer vision pipeline.
+**Technologies:** Python · PyTorch · NumPy · Matplotlib  
+**Focus:** Comparing learning objectives for temperature-field prediction.
 
-### [2D Game Engine](https://github.com/Verg84/2DGameEngine)
+### [Meta Quest Action FPS](https://github.com/Verg84/MetaQuest_Action_FPS)
 
-A C# game engine project with step-by-step examples covering rendering, input management, game objects, sprites, animation, a camera, and level management.
+A Quake-inspired VR sci-fi shooter prototype for Meta Quest 3, currently in active development and testing. Features include laser combat, enemy state machines, hit effects, and VR player health feedback.
 
-**Technologies:** C#  
-**Focus:** Exploring the building blocks of a 2D game engine.
+**Technologies:** Unity · C# · OpenXR · Meta Quest 3  
+**Focus:** Experimental VR gameplay and combat systems.
 
-### [OpenGL Applications](https://github.com/Verg84/OpenGL_applications)
+### [Meta Quest AR Label Rendering](https://github.com/Verg84/MetaQuest_AR_LabelRendering)
 
-A collection of computer graphics applications using OpenGL, including a shader project.
+A mixed reality application that combines YOLO object detection with capture-time camera metadata and environment depth to display labels at estimated real-world positions. Saved camera poses help compensate for headset movement during inference.
 
-**Technologies:** OpenGL · C  
-**Focus:** Exploring graphics programming and shaders.
+**Technologies:** Unity · C# · Python · YOLO · Meta XR SDK · MRUK · WebSockets  
+**Focus:** Connecting computer vision results to world-space interaction.
+
+### [Unity Real-Time Strategy Mechanics](https://github.com/Verg84/Unity-RealTimeStrategy-Mechanics)
+
+A Unity project exploring real-time strategy mechanics, with work organized across feature branches and a README entry for unit selection. Check the repository branches to explore the examples; the project uses Unity's legacy Input System.
+
+**Technologies:** Unity  
+**Focus:** Exploring interaction mechanics for strategy games.
 
 ## Current research
 
